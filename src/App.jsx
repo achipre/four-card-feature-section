@@ -1,9 +1,10 @@
 import './App.css'
-function App () {
-  <>
-    <h1>Reliable, efficient delivery</h1>
-    <h2>Powered by Technology</h2>
-    <p>
+export const App = () => {
+  return (
+  <main>
+    <h1 className="title">Reliable, efficient delivery</h1>
+    <h2 className="subtitle">Powered by Technology</h2>
+    <p className="paragraph">
       Our Artificial Intelligence powered tools use millions of project data points to ensure that
       your project is successful
     </p>
@@ -29,7 +30,6 @@ function App () {
         <p>Uses data from past projects to provide better delivery estimates</p>
       </div>
     </div>
-  </>
+  </main>
+  )
 }
-
-export default App

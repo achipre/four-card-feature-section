@@ -1,0 +1,23 @@
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title{
+  font-size: 2.3rem;
+  font-weight: 200;
+  color: var(--very-dark-blue);
+  text-align: center;
+}
+.subtitle{
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: var(--very-dark-blue);
+  text-align: center;
+}
+.paragraph{
+  align-self: center;
+  text-align: center;
+  color: var(--grayish-blue);
+  width: 60%;
+}
