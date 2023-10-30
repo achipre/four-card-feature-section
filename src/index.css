@@ -19,3 +19,12 @@ body{
   display: grid;
   place-content: center;
 }
+@media (width < 768px) {
+  body {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+}
